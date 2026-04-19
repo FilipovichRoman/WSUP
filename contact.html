@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="custom-select/custom-select.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
+	<title>Контакты • Гремячинский-ДОК</title>
+	<link rel="preload" href="css/style.css" as="style" />
+	<meta name="description" content="Контакты Гремячинский-ДОК">
+	<meta name="keywords" content="Контакты Гремячинский-ДОК"/>
+</head>
+<body>
+
+	<header class="header header-bg">
+	    <div class="container">
+	      <div class="header__item">
+	        <a href="index.html" class="logo">
+	        	<picture>
+					<source srcset="images/Гремячинский-ДОК-mob.svg" media="(max-width: 575px)">
+					<img src="images/Гремячинский-ДОК.svg" alt="Гремячинский ДОК">
+				</picture>
+	        </a>
+	        <nav class="nav">
+	            <div class="nav__data">
+	               <div class="nav__toggle" id="nav-toggle">
+	                  <i class="ri-menu-line nav__burger"></i>
+	                  <i class="ri-close-line nav__close"></i>
+	               </div>
+	            </div>
+
+	            <div class="nav__menu" id="nav-menu">
+	               <ul class="nav__list">
+	                  <li class="dropdown__item">
+	                     <div class="nav__link">
+	                        Продукция <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+	                     </div>
+	                     <ul class="dropdown__menu">
+	                        <li>
+	                           <a href="latoflex.html" class="dropdown__link">
+	                               Латофлекс
+	                           </a>                          
+	                        </li>
+	                        <li>
+	                           <a href="plywood.html" class="dropdown__link"> 
+	                            	Фанера
+	                           </a>
+	                        </li>
+	                        <li>
+	                           <a href="partners.html" class="dropdown__link"> 
+	                            	Брикеты топливные RUF
+	                           </a>
+	                        </li>
+	                        <li>
+	                           <a href="brands.html" class="dropdown__link"> 
+	                            Пиломатериалы
+	                           </a>
+	                        </li>
+	                     </ul>
+	                  </li>
+	                  <li><a href="suppliers.html" class="nav__link">Поставщикам</a></li> 
+	                  <li><a href="vacancies.html" class="nav__link">Вакансии</a></li> 
+	                  <li><a href="news.html" class="nav__link">Новости</a></li> 
+	                  <li><a href="contact.html" class="nav__link">Контакты</a></li>
+	                </ul>
+	            </div>
+	         </nav>
+	         <div class="header__contact">
+	         	<a class="header__phone header__phone-fill" href="tel:+73919999999">+7 (391) 999-99-99</a>
+	         	<a class="header__mail header__mail-fill" href="mailto:info@grddok.com">info@grddok.com</a>
+	         </div>
+	      </div>
+	    </div>
+	</header>
+
+	<main>
+		
+		<section class="contact-mb">
+			<div class="container">
+				<div class="contact__top">
+					<div class="contact__items">
+						<h1 class="contact__bigtitle">Контактная информация</h1>
+					</div>
+					<div class="contact__items">
+						<a class="contact__phone" href="tel:+73919999999">+7 (391) 999-99-99</a>
+	         			<a class="contact__mail" href="mailto:info@grddok.com">info@grddok.com</a>
+					</div>
+					<div class="contact__items">
+						<h3 class="contact__subtitle">Адрес</h3>
+						<address class="contact__address">Гремячинск Пермский край 618270 РФ, г. Гремячинск, ул. Коммунистическая, д.1</address>
+					</div>
+					<div class="contact__items">
+						<h3 class="contact__subtitle">Отдел закупок</h3>
+						<a class="contact__phone" href="tel:+71343411188">+7 (134) 341-11-88</a>
+	         			<a class="contact__mail" href="mailto:mail@grddok.net">mail@grddok.net</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="maps">
+			<div class="container">
+				<form action="/" method="POST" class="form form-contact">
+						<h3 class="form__title">Свяжитесь с нашим специалистом</h3>
+						<div class="form__row">
+							<div class="form__group form__group-big">
+								<label class="form__label">
+									<span class="form__descr">Контактное лицо</span>
+									<input type="text" name="name" placeholder="Ф.И.О." class="form__input">
+								</label>
+							</div>
+							<div class="form__group">
+								<label class="form__label">
+									<span class="form__descr">Телефон</span>
+									<input type="tel" name="tel" placeholder="+ 7 999 199 19 19" class="form__input">
+								</label>
+							</div>
+							<div class="form__group">
+								<label class="form__label">
+									<span class="form__descr">Email</span>
+									<input type="email" name="email" placeholder="info@mail.ru" class="form__input">
+								</label>
+							</div>
+							<div class="form__group form__group-big">
+								<label class="form__label">
+									<span class="form__descr">Комментарий</span>
+									<textarea class="form__textarea" placeholder="Напишите суть вашего вопроса"></textarea>
+								</label>
+							</div>
+						</div>
+						<div class="checkbox">
+					        <input class="checkbox__input" type="checkbox" id="checkbox_1">
+					        <label class="checkbox__label" for="checkbox_1">Нажимая кнопку я соглашаюсь с политикой конфиденциальности</label>
+					    </div>
+					<button class="btn form__btn" type="submit">Связаться с нами</button>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__item">
+						<div class="footer__logo">
+							<a href="index.html">
+								<img src="images/Гремячинский-ДОК2.svg" alt="Гремячинский ДОК">
+							</a>
+							<div class="footer__descr">Современное предприятие по производству гнуто-клееных изделий (латофлекс), фанеры, топливных брикетов RUF, березового угля, пиломатериалов</div>
+						</div>
+					</div>
+					<div class="footer__item">
+						<h3 class="footer__title">Реализация</h3>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="latoflex.html" class="footer__link">Латофлекс</a></li>
+							<li class="footer__item"><a href="plywood.html" class="footer__link">Фанера</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Брикеты топливные RUF</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Пиломатериалы</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Кроватные основания</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Уголь</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h3 class="footer__title">О компании</h3>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" class="footer__link">Продукция</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Деятельность</a></li>
+							<li class="footer__item"><a href="#" class="footer__link">Приемущества</a></li>
+							<li class="footer__item"><a href="suppliers.html" class="footer__link">Поставщикам</a></li>
+							<li class="footer__item"><a href="vacancies.html" class="footer__link">Вакансии</a></li>
+							<li class="footer__item"><a href="news.html" class="footer__link">Новости</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h3 class="footer__title">Отдел закупок</h3>
+						<ul class="footer__list">
+							<a class="footer__tel" href="tel:+72420007799">+7 (242) 000-77-99</a>
+							<a class="footer__mail" href="mailto:puchasa@grxdok.com">puchasa@grxdok.com</a>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<h3 class="footer__title">Контакты</h3>
+						<ul class="footer__list">
+							<a class="footer__tel" href="tel:+72420402288">+7 (242) 040-22-88</a>
+							<a class="footer__mail" href="mailto:puchasa@grxdo.net">puchasa@grxdo.net</a>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__cop">© 2022 ГремДок, все права защищены</div>
+					<a class="footer__policy" href="#">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</footer>
+
+	</main>
+
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script src="custom-select/custom-select.min.js"></script>
+	<script type="text/javascript" defer src="js/app.js"></script>
+
+</body>
+</html>
